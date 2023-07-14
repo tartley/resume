@@ -91,7 +91,7 @@ Medical Trials (2 years).
                         design and mentoring responsibilities.
 
 **Made.com**\           Made was a furniture retailer struggling to model their
-*14 month contract.*    logistics in customized Enterprise Resource Planning software.
+*14 month contract.*    logistics in Python Enterprise Resource Planning software.
                         I took over a dysfunctional team, moribund from years of technical
                         debt, e.g. nobody could remember when they had last performed the
                         week-long manual process to release to production. I mentored the
@@ -104,15 +104,16 @@ Medical Trials (2 years).
                         schedule.
 
 **Resolver Systems**\   Hardcore extreme programming startup, producing web and desktop
-*5 years.*              software for the financial and scientific sectors.\
-                        We paired on all production code, using extremely thorough TDD,
-                        becoming regular conference speakers about our specialities
-                        of "London School" TDD, and the double-loop style. This
-                        was a fascinating and transformative job, you should
-                        ask me about it.
+*5 years.*              software in Python and .Net IronPython for the financial and
+                        scientific sectors. We paired on all production code,
+                        using extremely thorough TDD, becoming regular
+                        conference speakers about our specialities of "London
+                        School" TDD, and the double-loop style. This was a
+                        fascinating and transformative job, you should ask me
+                        about it.
 
 **GIS consulting**\     For **Peter Brett Associates** I single-handedly designed and
-*3 years.*              coded *Habitat Capture*, a desktop GIS tool using
+*3 years.*              coded *Habitat Capture*, a desktop GIS tool in .Net using
                         ArcObjects for ArcMap. End users described the tool as "*about
                         a billion times better*" than the last such tool they had
                         commissioned. The resulting atlas compiled using the tool
@@ -120,12 +121,13 @@ Medical Trials (2 years).
 
                         At **Ordinance Survey** I did proof-of-concept SQL processing
                         of *MasterMap*, the UK's definitive national geospatial dataset,
-                        optimizing spatial queries to run over the terabytes of data
+                        optimizing spatial queries over terabyte datasets to run
                         in hours instead of weeks.
 
-                        For **ESRI UK** I created a spatial data importer from AutoCAD,
-                        using topological operators to correctly create
-                        multi-part geometries for nested holes and islands.
+                        For **ESRI UK** I created a .Net spatial data importer
+                        from AutoCAD, using topological operators to correctly
+                        create multi-part geometries for nested holes and
+                        islands.
 
 ----------------------------------------------------------------------------------------
 
