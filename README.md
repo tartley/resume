@@ -13,9 +13,9 @@ make all # Converts all resume .md files to .html & .pdf
 
 | ✅ Create quick job timeline to preserve content omitted from c.v.
 | ✅ Push resume and ^ to remote repo
-| 🔲 The font in the alt sphinx html output is lovely. Can we use that?
+| ✅ The font in the alt sphinx html output is lovely. Can we use that?
 |    Also, fonts on t460 are revolting, and layout breaks.
-| 🔲 Reduce gap after html h2 titles?
+| ✅ Reduce gap after html h2 titles?
 | 🔲 Publish built output on tartley.com.
 | 🔲 Blog it?
 | 🔲 Consolidate learnings as a general-purpose md2pdf ?

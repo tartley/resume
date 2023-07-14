@@ -1,4 +1,4 @@
-| **Jonathan Hartley** | [tartley@tartley.com][email] | [http://tartley.com][blog]
+| Jonathan Hartley | [tartley@tartley.com][email] | [http://tartley.com][blog]
 | +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, USA (UTC-6)
 
 [email]: mailto:tartley@tartley.com
@@ -35,15 +35,13 @@ Foundation, and a continual open source contributor, eg:
   which I created from scratch to help me understand a fiddly API concept, using plain
   language but without skirting details.
 
-## Industry Experience
+## Experience
 
-Ubuntu Linux ecosystem and open source (10 years),
+Experience in Ubuntu Linux ecosystem and open source (10 years),
 GIS and spatial data (10 years),
 Finance (5 years),
 Online retail, e-commerce, ERP (2 years),
 Medical Trials (2 years).
-
-## Favoured Technologies & Techniques
 
 | Recently mostly **Python**, but dabble in other languages as required.
 | **Web API** design and implementation using **Django**, **Flask**, etc.
@@ -59,10 +57,10 @@ Medical Trials (2 years).
 
 -------------------- -------------------------------------------------------------------
 **Canonical**\       Canonical creates Ubuntu Linux, the world's most popular server OS.
-*4 years,*\          I develop the Snap Store, an app store for Linux applications. I
-*to present.*        own the specs for several Store aspects, gathering requirements,
-                     designing & implementing web APIs, mostly in Python, and production
-                     ops. The Store's APIs run at about 5k req/s, allowing authors to
+*4 years,*\          I own the specs for several aspects of the Snap Store, an app store
+*to present.*        for Linux applications, for which I gather requirements, design &
+                     implement web APIs, and deploy & support production.
+                     The Store's APIs run at about 5k req/s, allowing authors to
                      publish their applications as snaps, drive various human-visible
                      "app store" applications, and allow reliable, secure updates for
                      hundreds of millions of Ubuntu instances, as well as every other
@@ -76,29 +74,27 @@ Medical Trials (2 years).
 ## Previous Roles
 
 ----------------------- --------------------------------------------------------------------
-**IBM Cloud**\          Implementing security groups for IBM Cloud. Mostly using Python,
-*2 years*               Golang, calling a hypervisor hosting API to set iptables for
-                        dynamic on-instance firewalling. On my own initiative I produced
+**IBM Cloud**\          Implemented security groups for IBM Cloud in Python & Golang,
+*2 years*               calling a hypervisor hosting API to set iptables for dynamic
+                        on-instance firewalling. On my own initiative I produced
                         various presentations and training courses, initially for
-                        my own team, but later requested across the wider division,
-                        which had a transformative effect on code quality,
-                        especially on Cloud's massive Python test suite, used and
-                        contributed to daily by hundreds of developers.
+                        my own team, but later repeated for hundreds of developers
+                        across the division, especially for my suggested overhauls of
+                        Cloud's massive Python test suite.
 
-**Able.ag,**\           Herding small flocks of Python services to provide REST or
-**Antidote.me,**\       similar JSON APIs over HTTP. I often work with data scientists
-**BATS Trading,**\      on ingestion pipelines to Postgresql or NoSQL datastores like
-**Rangespan**\          MongoDB, sometimes indexed using Elasticsearch.\
-(acquired by Google)\   I take on roles such as tech lead, agile evangelist, or
-*Contracts, 6 years.*   testing guru. For example, at Able.ag I joined to relieve the
-                        company's technical founder of architectural, design and
-                        mentoring responsibilities.
+**Able.ag,**\           Creating REST-like web APIs in Python,
+**Antidote.me,**\       I often work with data scientists
+**BATS Trading,**\      on ingestion pipelines to RDBMs or NoSQL datastores,
+**Rangespan**\          sometimes indexed using Elasticsearch. I act as tech lead,
+*Contracts, 6 years.*   or mentor in agile, design, or testing. eg. at Able.ag
+                        I relieved the company's technical founder of architectural,
+                        design and mentoring responsibilities.
 
-**Made.com**\           Made was a furniture retailer struggling to model their disruptive
-*14 month contract.*    logistics model in customized Enterprise Resource Planning software.
+**Made.com**\           Made was a furniture retailer struggling to model their
+*14 month contract.*    logistics in customized Enterprise Resource Planning software.
                         I took over a dysfunctional team, moribund from years of technical
                         debt, e.g. nobody could remember when they had last performed the
-                        multi-week manual process to release to production. I mentored the
+                        week-long manual process to release to production. I mentored the
                         existing team, hired more developers, created a one-minute
                         automated CI and deployment pipeline, instituted thorough
                         testing and pre-merge reviews, and together we redesigned and
@@ -110,34 +106,31 @@ Medical Trials (2 years).
 **Resolver Systems**\   Hardcore extreme programming startup, producing web and desktop
 *5 years.*              software for the financial and scientific sectors.\
                         We paired on all production code, using extremely thorough TDD,
-                        all becoming regular conference speakers about TDD, and our
-                        specialities, the London school and double-loop style. This
-                        was a fascinating and transformative job, you should ask me
-                        about it.
+                        becoming regular conference speakers about our specialities
+                        of "London School" TDD, and the double-loop style. This
+                        was a fascinating and transformative job, you should
+                        ask me about it.
 
 **GIS consulting**\     For **Peter Brett Associates** I single-handedly designed and
-*3 years.*              coded *Habitat Capture*, a desktop GIS tool written using
+*3 years.*              coded *Habitat Capture*, a desktop GIS tool using
                         ArcObjects for ArcMap. End users described the tool as "*about
                         a billion times better*" than the last such tool they had
-                        commissioned. The resulting Thames Esturary Coastal Habitat
-                        Atlas, compiled using the tool, won top honors at the 2008
-                        British Cartographic Society awards.
+                        commissioned. The resulting atlas compiled using the tool
+                        won the British Cartographic Society award.
 
                         At **Ordinance Survey** I did proof-of-concept SQL processing
-                        for *MasterMap*, the UK government's definitive national
-                        geospatial data, optimizing spatial queries to run over the
-                        multi-terabyte data set in hours instead of weeks.
+                        of *MasterMap*, the UK's definitive national geospatial dataset,
+                        optimizing spatial queries to run over the terabytes of data
+                        in hours instead of weeks.
 
-                        For **ESRI UK** I created an AutoCAD to ArcSDE spatial data
-                        importer, to improve several cases which the standard ESRI
-                        importer handled badly, such as using topological operators
-                        to create correct multi-part geometries for nested holes
-                        and islands.
+                        For **ESRI UK** I created a spatial data importer from AutoCAD,
+                        using topological operators to correctly create
+                        multi-part geometries for nested holes and islands.
 
 ----------------------------------------------------------------------------------------
 
 ## Education
 
-| University of Durham, UK. BSc (Hons) 2:1 in Electronics.
+| University of Durham, UK. BSc (Hons) 2:1 in Electronics (certified equivalent to 4 year US degree.)
 | English A-levels: Physics:A, Math:B, General:A. AS-level Electronics:A
 | English GCSE: Seven grade A, two grade B.
