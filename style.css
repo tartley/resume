@@ -1,7 +1,8 @@
 <style type="text/css">
 
   body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+      font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
       max-width: 800px;
       margin: auto;
       background: #FFFFFF;
