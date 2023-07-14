@@ -1,0 +1,34 @@
+<style type="text/css">
+
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 30px 10px 10px 10px;
+  }
+
+  h2 {
+      color: #757575;
+  }
+
+  h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 1em;
+    height: 0.6em;
+    /* This is called "rulecolor" in the ConTeXt template.tex stylesheet. */
+    background-color: #ECC770;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  td {
+      vertical-align: top;
+  }
+
+</style>
+
