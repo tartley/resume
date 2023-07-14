@@ -21,3 +21,7 @@ setup: ## Install required apt packages
 MD_FILES = $(wildcard *Jonathan-Hartley*.md)
 all: $(MD_FILES:%.md=%.html) $(MD_FILES:%.md=%.pdf) ## Convert all resume .md files to .html & .pdf
 
+deploy: all
+	cp Jonathan*.pdf ~/tartley.com/files/
+	cp Jonathan*.html ~/tartley.com/files/
+
