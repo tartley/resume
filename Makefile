@@ -8,10 +8,10 @@ setup: ## Install required apt packages
 .PHONY: setup
 
 %.html: %.md style.css ## Generate given .html from corresponding .md file.
-	pandoc --include-in-header style.css --metadata title:"" --standalone $< -o $@
+	pandoc --from markdown --to html --css style.css --self-contained --metadata title:"" --output $@ $<
 
 %.pdf: %.md style.tex ## Generate given .pdf from corresponding .md file.
-	pandoc --to context --template style.tex --standalone $< -o .build/$*.tex
+	pandoc --from markdown --to context --template style.tex --standalone $< -o .build/$*.tex
 	(\
 	cd .build; \
 	mtxrun --script context $*.tex >/dev/null; \

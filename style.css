@@ -1,35 +1,32 @@
-<style type="text/css">
 
-  body {
-      max-width: 800px;
-      margin: auto;
-      color: #5e6e79;
-      background: #FFFFFF;
-      padding: 30px 10px 10px 10px;
-  }
+body {
+    max-width: 800px;
+    margin: auto;
+    color: #5e6e79;
+    background: #FFFFFF;
+    padding: 30px 10px 10px 10px;
+}
 
-  h1,h2,h3,h4,h5,h6 {
-      font-weight: 400;
-      color: #444464;
-  }
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    color: #444464;
+}
 
-  h2:before {
-    content: "";
-    display: inline-block;
-    margin-right:1%;
-    width: 1em;
-    height: 0.6em;
-    /* This is called "rulecolor" in the ConTeXt template.tex stylesheet. */
-    background-color: #ECC770;
-  }
+h2:before {
+  content: "";
+  display: inline-block;
+  margin-right:1%;
+  width: 1em;
+  height: 0.6em;
+  /* This is called "rulecolor" in the ConTeXt template.tex stylesheet. */
+  background-color: #ECC770;
+}
 
-  table {
-      width: 100%;
-  }
+table {
+    width: 100%;
+}
 
-  td {
-      vertical-align: top;
-  }
-
-</style>
+td {
+    vertical-align: top;
+}
 
