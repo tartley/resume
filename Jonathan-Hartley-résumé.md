@@ -133,6 +133,6 @@ Medical Trials (2 years).
 
 ## Education
 
-| University of Durham, UK. BSc (Hons) 2:1 in Electronics (certified equivalent to 4 year US degree.)
+| University of Durham, UK. BSc (Hons) 2:1 in Electronics (equivalent to 4 year US BS degree.)
 | English A-levels: Physics:A, Math:B, General:A. AS-level Electronics:A
 | English GCSE: Seven grade A, two grade B.
