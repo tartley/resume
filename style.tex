@@ -16,9 +16,10 @@ $if(mainlang)$
 $endif$
 
 \setupcolor[hex]
-\definecolor[sectioncolor][h=777777]
+\definecolor[titlecolor][h=444464]
 \definecolor[rulecolor][h=ecc770]
 \definecolor[linkcolor][h=2858d8]
+\definecolor[textcolor][h=3e4e49]
 
 % Enable hyperlinks
 \setupinteraction[state=start, color=linkcolor, style=normal]
@@ -29,9 +30,11 @@ $endif$
                  topspace=10mm, bottomspace=20mm,
                  header=0mm, footer=0mm]
 
+\setupcolors[textcolor=textcolor]
+
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[12pt, 'goudy old style']
+\setupbodyfont[12pt, 'termes']
 % If I figure out how, possible fallbacks used in the CSS are:
 % 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
 
@@ -39,11 +42,11 @@ $endif$
 
 \setupblackrules[width=1.5em, height=1em, color=rulecolor]
 
-\setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
-\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+\setuphead[chapter]      [style=\tfd\bf, color=titlecolor]
+\setuphead[section]      [style=\tfd\bf, color=titlecolor, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=titlecolor, align=right,
                           before={\leavevmode\blackrule\hspace}]
-\setuphead[subsubsection][style=\bf]
+\setuphead[subsubsection][style=\bf, color=titlecolor]
 
 $if(number-sections)$
 $else$
