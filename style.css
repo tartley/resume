@@ -1,17 +1,16 @@
 <style type="text/css">
 
   body {
-      /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-      font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
       max-width: 800px;
       margin: auto;
+      color: #3e4e49;
       background: #FFFFFF;
       padding: 30px 10px 10px 10px;
   }
 
-  h2 {
-      color: #757575;
-      margin-bottom: 0.5em;
+  h1,h2,h3,h4,h5,h6 {
+      font-weight: 400;
+      color: #444464;
   }
 
   h2:before {
