@@ -60,7 +60,7 @@ Medical Trials (2 years).
 *4 years,*\          I own the specs for several aspects of the Snap Store, an app store
 *to present.*        for Linux applications, for which I gather requirements, design &
                      implement web APIs, and deploy & support production.
-                     The Store's APIs run at about 5k req/s, allowing authors to
+                     The Store APIs handle about 5k req/s, allowing authors to
                      publish their applications as snaps, drive various human-visible
                      "app store" applications, and allow reliable, secure updates for
                      hundreds of millions of Ubuntu instances, as well as every other
