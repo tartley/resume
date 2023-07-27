@@ -1,5 +1,5 @@
-| Jonathan Hartley | [tartley@tartley.com][email] | [http://tartley.com][blog]
-| +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, USA (UTC-6)
+| Jonathan Hartley | [tartley@tartley.com][email] | [https://tartley.com][blog]
+| +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, 55901, USA (UTC-6)
 
 [email]: mailto:tartley@tartley.com
 [blog]: https://www.tartley.com/categories/software
