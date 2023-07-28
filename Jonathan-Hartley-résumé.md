@@ -1,8 +1,9 @@
-| Jonathan Hartley | [tartley@tartley.com][email] | [https://tartley.com][blog]
+| Jonathan Hartley | [tartley@tartley.com][email] | [blog][blog] | [github][github]
 | +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, 55901, USA (UTC-6)
 
 [email]: mailto:tartley@tartley.com
 [blog]: https://www.tartley.com/categories/software
+[github]: https://github.com/tartley
 
 ## Summary
 
@@ -10,12 +11,11 @@ I'm an experienced software developer, a back-end generalist specializing in Pyt
 
 I enjoy roles as both an individual contributor, and hands-on technical lead of
 small, happy teams, where I deliver business value by putting reliable,
-maintainable features into production on a predictable schedule (e.g. see "made.com" below.)
+maintainable features into production on a predictable schedule.
 
-I create mentoring relationships and high trust environments, believing in compassion
-and integrity. I forge great team spirit and raise morale by building strong, jovial
-relationships, taking pride in our humane treatment of one another, and in our raised
-expectations of what we become capable of as a group. Great teams create great
+I believe in mentoring, radically jovial relationships, taking pride in our
+humane treatment of one another, and in our raised expectations of what we
+become capable of as a group. Great teams enable the creation of great
 individuals, not the other way around.
 
 I consult and mentor in Test-Driven Development (TDD), favoring the "London
@@ -24,7 +24,6 @@ School" and "double loop" variants, when appropriate. I was tech reviewer on O'R
 published on testing
 [in Python Magazine](https://www.tartley.com/posts/acceptance-testing-net-applications-using-ironpython),
 and landed modest CPython patches [in unitttest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263c81e1d66eae).
-
 
 I created
 [Colorama](https://pypi.python.org/pypi/colorama),
@@ -59,18 +58,18 @@ Online retail, e-commerce, ERP (2 years), Medical Trials (2 years).
 **Canonical**\ I work on the backend of the
 *4 years,*\    [*Snap Store*](https://snapcraft.io/store),
 *to present.*  an app store for Linux applications, creating Python web APIs
-               to serve 5k req/s, installing to, and securely updating,
-               hundreds of millions of Ubuntu & other Linux instances &
-               devices. I recently lead a project to migrate data and
-               consolidate logic for the company's other types of binary
-               downloadable (e.g. container images,
-               "[charms](https://juju.is/about)", etc) into the existing snap
-               store services, allowing us to decomission other teams' services
-               as their functionality was subsumed, and converge behaviors such
-               as publishing, versioned updates, risk tracks, etc, to be more
-               consistent across types of downloadable artifact. All while
-               honoring high-traffic SLAs & preserving compatibility of diverse
-               externally visible APIs for each artifact type.
+               to serve 5k req/s, installing and securely updating applications
+               for hundreds of millions of Ubuntu & other Linux devices. I
+               recently lead a project to migrate data and consolidate logic
+               for the company's other types of binary downloadable (e.g.
+               container images, "[charms](https://juju.is/about)", etc) into
+               the existing snap store services, allowing us to decomission
+               other teams' services as their functionality was subsumed, and
+               converge behaviors such as publishing, versioned updates, risk
+               tracks, etc, to be more consistent across types of downloadable
+               artifact, all while honoring high-traffic SLAs & preserving
+               compatibility of diverse externally visible APIs for each
+               artifact type.
 
 ------------------------------------------------------------------------------------
 
@@ -86,12 +85,11 @@ Online retail, e-commerce, ERP (2 years), Medical Trials (2 years).
                    to provide dynamic on-instance firewalling. I also produced
                    & presented training courses for the inexperienced team,
                    (e.g had never written GoLang before) which were later
-                   requested across the division, across the division,
-                   especially around Cloud's massive Python test suite,
-                   bringing hundreds of developers up to speed on how to
-                   contribute *good* tests, dramatically reducing time spent on
-                   creating and maintaining tests, while making the tests
-                   themselves faster and more reliable.
+                   requested across the division, especially around Cloud's
+                   massive Python test suite, bringing hundreds of developers
+                   up to speed on how to contribute *good* tests, dramatically
+                   reducing time spent on creating and maintaining tests, while
+                   making the tests themselves faster and more reliable.
 
 **Able.ag,**\      Creating REST web APIs in Python,
 **Antidote.me,**\  ingesting, transforming and indexing large amounts of data.
