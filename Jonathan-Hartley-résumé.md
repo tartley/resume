@@ -13,9 +13,9 @@ I enjoy roles as both an individual contributor, and hands-on technical lead of
 small, happy teams, where I deliver business value by putting reliable,
 maintainable features into production on a predictable schedule.
 
-I believe in mentoring, radically jovial relationships, taking pride in our
-humane treatment of one another, and in our raised expectations of what we
-become capable of as a group. Great teams enable the creation of great
+I believe in mentoring, radically jovial relationships, real talk, taking pride
+in our humane treatment of one another, and in our raised expectations of what
+we become capable of as a group. Great teams enable the creation of great
 individuals, not the other way around.
 
 I consult and mentor in Test-Driven Development (TDD), favoring the "London
@@ -31,12 +31,12 @@ the world's
 [28th most popular](https://hugovk.github.io/top-pypi-packages/#colorama)
 Python library,
 present at international conferences like PyCon, and am a nominated Fellow of the Python Software
-Foundation. I make continual open source contributions, (eg this recent drive-by
+Foundation. I make continual open source contributions, e.g. this recent drive-by
 [analysis and fixes](https://github.com/getnikola/nikola/issues/3671)
 for static web site generator Nikola, or
 [this page of ModernGL docs](https://moderngl.readthedocs.io/en/latest/topics/buffer_format.html),
 which I created from scratch to help me understand a fiddly API concept, using plain
-language but without skirting details.)
+language but without skirting details.
 
 ## Industries & technologies
 
