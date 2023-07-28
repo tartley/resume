@@ -112,3 +112,8 @@ Co-presented with Michael Foord, at EuroPython 2009 & PyCon 2009.
 [Test-Driven Development -- Brooks' Silver Bullet?](https://www.tartley.com/posts/pycon-2008-chicago-usa)
 : Presented at PyCon 2008, and the Academic IT Festival 2008, Wrocklaw, Poland and PyCon UK 2007.
 
+
+# Education
+
+| English A-levels: Physics:A, Math:B, General:A. AS-level Electronics:A
+| English GCSE: Seven grade A, two grade B.
