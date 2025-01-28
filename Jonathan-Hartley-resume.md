@@ -1,7 +1,7 @@
 % Jonathan Hartley résumé
 
 | Jonathan Hartley | [tartley@tartley.com][email] | [blog][blog] | [github][github]
-| +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, 55901, USA (UTC-5)
+| +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, 55901, USA | Central, ie. UTC-6
 
 [email]: mailto:tartley@tartley.com
 [blog]: https://www.tartley.com/categories/software
@@ -11,14 +11,14 @@
 
 I'm an experienced software developer, a back-end generalist, specializing in Python.
 
-I really care about programming. For you, this means that I create products that work, that are well
-tested, delivered to a predictable schedule, and costing less money to maintain and extend in the
-future.
+I really care about programming. For you, this means that I create products that work and are
+well tested. Deliveries are incremental, to make progress visible, and less money is required
+to maintain and extend them in the future.
 
-I also really care about people and teams, which means I believe in continuous mentoring, radically
-jovial relationships, real talk, and taking pride in our raised expectations of what we become
-capable of as a group. Great teams enable the creation of great individuals, not the other way
-around.
+I believe good relationships and teams are a pre-requisite for the above, which means I believe in
+continuous mentoring, radically jovial relationships, real talk, and taking pride in our raised
+expectations of what we become capable of as a group. Great teams enable the creation of great
+individuals, not the other way around.
 
 ## Experience and technologies
 
