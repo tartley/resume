@@ -1,0 +1,5 @@
+# source this file, don't execute.
+# mkvirtualenv requires an interactive shell.
+
+mkvirtualenv -p $(which python2.7) cv
+

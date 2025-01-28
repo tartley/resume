@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# prereqs for rst2pdf
+pip install docutils
+sudo apt-get install texlive-latex-base rubber
+
+pip install rst2pdf
+
