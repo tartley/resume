@@ -97,17 +97,17 @@ without skirting details.
 **Able.ag,**\      Often as a tech lead, such as at **Able.ag**, where I relieved the company's
 **Antidote.me,**\  technical founder of architectural, design, and mentoring responsibilities.
 **BATS Trading,**\ Usually these roles created web APIs in Python, ingesting, transforming and
-**Rangespan**\     indexing large amounts of data. At ecommerce startup *Rangespan*, we integrated
-*Contracts,*\      with hundreds of suppliers to ingest data for 100 million product lines, and then
-*6 years.*         routed over a billion sales from participating retailers to dynamically selected
-                   suppliers.
+**Rangespan**\     indexing large amounts of data. At e-commerce startup **Rangespan**, we
+*Contracts,*\      integrated with hundreds of suppliers to ingest data for 100 million product
+*6 years.*         lines, and then routed over a billion sales from participating retailers to
+                   dynamically selected suppliers.
 
 **Made.com**\      This furniture retailer's backend Enterprise Resource Planning team was
 *14 month*\        dysfunctional, moribund from years of technical debt. I mentored the team, hired
 *contract.*        new members, replaced the existing week-long manual deployment process with
-                   modern CI. Together we radically fixed and improved the legacy systems, allowing
-                   the team to start delivering new business-critical features to production on
-                   a predictable schedule.
+                   modern CI/CD. Together we radically fixed and improved the legacy systems,
+                   allowing the team to start delivering new business-critical features to
+                   production on a predictable schedule.
 
 **Resolver**\      Hardcore eXtreme Programming startup, doing pairing and TDD, producing web and
 **Systems**\       desktop software in Python and .Net IronPython, for
