@@ -28,9 +28,9 @@ become the world's [28th most popular](https://hugovk.github.io/top-pypi-package
 library. I present at international conferences like PyCon, and am a Fellow of the Python Software
 Foundation.
 
-I often produce **web APIs**, leaning on [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) using
-**Django**, **FastAPI**, or **Flask**, often interfacing with Relational storage such as
-**PostgreSQL**, Oracle or MySQL, or NoSQL such as Rethink or MongoDB, indexed using ElasticSearch.
+I often produce **web APIs**, leaning on [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS), using
+**Django**, **FastAPI**, or **Flask**, often interfacing with relational storage such as
+**PostgreSQL**, Oracle or MySQL, or noSQL such as Rethink or MongoDB, indexed using ElasticSearch.
 
 I love working with **Linux**, such as sending hypervisor commands to manage **virtual
 machines** or **network configuration**, as part of building **public or private clouds**.
@@ -60,6 +60,11 @@ without skirting details.
                    configuration, access to GPU hardware and storage, presenting the results to
                    users as their own private cluster with the requested capabilities.
 
+                   I also worked with Pre-sales Engineering to produce a parameterizable Python
+                   model which generates detailed diagrams, bills of materials, and related
+                   documentation describing the hardware and tens of thousands of networking
+                   interconnections in proposed High-Performance Computing clusters.
+
 ------------------ ---------------------------------------------------------------------------------
 
 \page[yes]
@@ -69,13 +74,13 @@ without skirting details.
 ------------------ ---------------------------------------------------------------------------------
 **Canonical**\     The [*Snap Store*](https://snapcraft.io/store) is an app
 *4 years*\         store for Linux applications. I worked on the backend Python web APIs, which
-                   serve 5k req/s, installing apps & securely updating hundreds of
-                   millions of Linux devices. I lead the effort to consolidate code from the
-                   company's other types of binary downloadable artifacts to all be handled by the
-                   Snap Store, turning it into a single "binary artifact store", which allowed us to
-                   decommission other teams’ services as their functionality was subsumed, and
-                   converge behaviors such as publishing, versioned updates, risk tracks, etc, to be
-                   more consistent across types of downloadable artifact, all while honoring
+                   serve 5k req/s, providing downloads to securely update hundreds of millions of
+                   Linux devices. One effort that I lead consolidated code from the company's other
+                   types of binary downloadable artifacts to all be handled by the Snap Store,
+                   turning many separate services into a single "binary artifact store", which
+                   allowed us to decommission other teams’ services as their functionality was
+                   subsumed, and converge behaviors such as publishing, versioned updates, risk
+                   tracks, etc, to be more consistent across artifact types, all while honoring
                    high-traffic SLAs & preserving compatibility with public APIs used by the diverse
                    clients of each artifact type.
 
