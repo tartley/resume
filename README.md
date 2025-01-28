@@ -20,7 +20,7 @@ same assertion as a good advertisement:
 
 It must make this assertion clearly and boldly within 10 seconds. To be
 effective, you must focus on the employer's needs, not yours. What does the
-person doing the hiring deperately want?
+person doing the hiring desperately want?
 
 * Productive
 * Take ownership of nailing down requirements, architecture and design.
@@ -28,7 +28,7 @@ person doing the hiring deperately want?
 * Create cohesive teams
 * Minimal designs, clean code that is easy for others to understand and modify,
   and flexible to future needs.
-* Experise to make automated tests easy to write, fast to run, and high in
+* Experience to make automated tests easy to write, fast to run, and high in
   value, so that you can deploy with confidence.
 * Simple monitoring techniques to ensure your development team know about
   failures before your users do.

@@ -7,10 +7,10 @@ setup: ## Install required apt packages
 	reqs=$$(cat requirements.apt) && sudo apt install -y --no-install-recommends $$reqs
 .PHONY: setup
 
-%.html: %.md style.css ## Generate given .html from corresponding .md file.
-	pandoc --from markdown --to html --css style.css --self-contained --metadata title:"" --output $@ $<
+%.html: %.md style.css # Generate given .html from corresponding .md file.
+	pandoc --from markdown --to html --css style.css --self-contained --output $@ $<
 
-%.pdf: %.md style.tex ## Generate given .pdf from corresponding .md file.
+%.pdf: %.md style.tex # Generate given .pdf from corresponding .md file.
 	pandoc --from markdown --to context --template style.tex --standalone $< -o .build/$*.tex
 	(\
 	cd .build; \
@@ -18,10 +18,13 @@ setup: ## Install required apt packages
 	mv $@ ..; \
 	)
 
-MD_FILES = $(wildcard *Jonathan-Hartley*.md)
-all: $(MD_FILES:%.md=%.html) $(MD_FILES:%.md=%.pdf) ## Convert all resume .md files to .html & .pdf
+html: Jonathan-Hartley-resume.html ## Resume as HTML
 
-deploy: all
+pdf: Jonathan-Hartley-resume.pdf ## Resume as PDF
+
+all: html pdf
+
+deploy: all ## Copy .pdf and .html outputs to ~/tartley.com/files
 	cp Jonathan*.pdf ~/tartley.com/files/
 	cp Jonathan*.html ~/tartley.com/files/
 
