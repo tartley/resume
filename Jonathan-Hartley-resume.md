@@ -12,28 +12,24 @@
 I'm an experienced software developer, a back-end generalist, specializing in Python.
 
 I really care about programming. For you, this means that I create products that work and are
-well tested. Deliveries are incremental, to make progress visible, and less money is required
-to maintain and extend them in the future.
+well tested. Deliveries are incremental and frequent, to make progress visible, and less money is
+required to maintain and extend them in the future.
 
-I believe good relationships and teams are a pre-requisite for the above, which means I believe in
-continuous mentoring, radically jovial relationships, real talk, and taking pride in our raised
-expectations of what we become capable of as a group. Great teams enable the creation of great
-individuals, not the other way around.
+Good teams are a pre-requisite for this, which means continuous mentoring, jovial relationships,
+real talk, and pride in our mutually raised expectations.
 
 ## Experience and technologies
 
-I have many years experience in **Python** (and other languages prior to that). I created
+I have 15 years experience in **Python** (and other languages as required). I created
 [Colorama](https://pypi.python.org/pypi/colorama), a personal **open source** project that has
 become the world's [28th most popular](https://hugovk.github.io/top-pypi-packages/#colorama) Python
 library. I present at international conferences like PyCon, and am a Fellow of the Python Software
 Foundation.
 
-I often produce **web APIs**, leaning on [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS), using
-**Django**, **FastAPI**, or **Flask**, often interfacing with relational storage such as
-**PostgreSQL**, Oracle or MySQL, or noSQL such as Rethink or MongoDB, indexed using ElasticSearch.
-
-I love working with **Linux**, such as sending hypervisor commands to manage **virtual
-machines** or **network configuration**, as part of building **public or private clouds**.
+I work on **Linux**, often producing **web APIs**, leaning on
+[HATEOAS](https://en.wikipedia.org/wiki/HATEOAS), using **Django**, **FastAPI**, or **Flask**, often
+interfacing with relational storage such as **PostgreSQL**, Oracle or MySQL, or noSQL such as
+Rethink or MongoDB, indexed using Elasticsearch.
 
 I consult and mentor in **Test-Driven Development (TDD)**, and regard projects which use this, and
 other **Agile** and **eXtreme Programming** techniques, as my favorites of the places I've
@@ -42,30 +38,34 @@ Python](https://www.oreilly.com/library/view/test-driven-development-with/978149
 on testing [in Python
 Magazine](https://www.tartley.com/posts/acceptance-testing-net-applications-using-ironpython), and
 landed modest CPython patches [in
-unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263c81e1d66eae).
-
-I make continual open source contributions, e.g. this recent drive-by [analysis and
-fixes](https://github.com/getnikola/nikola/issues/3671) for static web site generator Nikola, or
-[this page of ModernGL docs](https://moderngl.readthedocs.io/en/latest/topics/buffer_format.html),
-which I created from scratch to help me understand a fiddly API concept, using plain language but
-without skirting details.
+unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263c81e1d66eae#diff-d1243956feb505c5459fc05387e194609efb5c350cee202942be47ed30d7d7d0R354).
 
 ## Current Role
 
------------------- ---------------------------------------------------------------------------------
-**Lambda**\        Lambda is a public cloud providing access to cutting-edge GPUs, which customers
-*1 year,*\         use to train AI models. My role on the *Primitives* team is to convert customer
-*to present.*      requests and other events into QEMU and libvirt configuration across
-                   multiple datacenters, to create and manage virtual machines, network
-                   configuration, access to GPU hardware and storage, presenting the results to
-                   users as their own private cluster with the requested capabilities.
+------------- ---------------------------------------------------------------------------------
+**Lambda**\   Lambda's public cloud provides access to premier GPUs, which customers
+*1 year,*\    use to train AI models. My team converts customer requests and
+*to present.* other events into configuration changes on hypervisors across multiple
+              datacenters, to create and manage virtual machines, dynamic network configuration,
+              access to GPU hardware and storage, presenting the results to users as their own
+              private cluster. I analyze & deliver new features such as our first on-hypervisor
+              agent, to which I migrated our server health checks. Moving features like this out of
+              our centralized command-and-control service allows the code to be simpler, more
+              scalable and more responsive. Having direct access to the hypervisor like this is much
+              more reliable than micro-managing many hypervisors from afar by sending low-level
+              commands over ssh, eliminating whole classes of on-call issues. The team then helped
+              me migrate our primary and most involved workflow, launching VMs.
 
-                   I also worked with Pre-sales Engineering to produce a parameterizable Python
-                   model which generates detailed diagrams, bills of materials, and related
-                   documentation describing the hardware and tens of thousands of networking
-                   interconnections in proposed High-Performance Computing clusters.
+              To support the company's side-hustle of building High Performance Computing clusters
+              for clients, I produced a parameterizable Python model of proposed clusters,
+              including server hardware, switches, and the routing of the thousands of
+              networking connections between them, exporting the resulting model as detailed
+              diagrams, bills of material, etc. This allowed Pre-Sales Engineering to present
+              prospective clients with these details, along with quotes, on-demand, rather than
+              after weeks, as is industry standard. This contributed to our smaller start-up
+              winning multiple hundred-million dollar contracts over dominant competitors.
 
------------------- ---------------------------------------------------------------------------------
+------------- ---------------------------------------------------------------------------------
 
 \page[yes]
 
@@ -73,7 +73,7 @@ without skirting details.
 
 ------------------ ---------------------------------------------------------------------------------
 **Canonical**\     The [*Snap Store*](https://snapcraft.io/store) is an app
-*4 years*\         store for Linux applications. I worked on the backend Python web APIs, which
+*4 years*\         store for Linux applications. I worked as IC on the backend Python web APIs, which
                    serve 5k req/s, providing downloads to securely update hundreds of millions of
                    Linux devices. One effort that I lead consolidated code from the company's other
                    types of binary downloadable artifacts to all be handled by the Snap Store,
@@ -86,13 +86,13 @@ without skirting details.
 
 **IBM Cloud**\     Implemented IBM Cloud's
 *2 years*           [*security groups*](https://www.tartley.com/posts/illustrating-uses-of-ibm-cloud-security-groups/)
-                   feature, in Python & GoLang, converting user requests into iptables
-                   config across many instances, to provide dynamic on-instance firewalling.
-                   I also produced & presented training courses across the division, teaching
-                   hundreds of developers how to contribute *good* tests to the massive IBM Cloud
-                   Python test suite, dramatically reducing time spent on creating and maintaining
-                   tests, while making the tests themselves faster, more thorough, and more
-                   reliable.
+                   feature, in Python & GoLang, converting user requests into iptables config across
+                   many instances, to provide dynamic on-instance firewalling. I also produced &
+                   presented training courses across the division, teaching hundreds of developers
+                   how to contribute *good* tests to the massive IBM Cloud Python test suite,
+                   dramatically reducing time spent on creating and maintaining tests, while making
+                   the tests themselves orders of magnitude faster, and being more thorough and
+                   more reliable.
 
 **Able.ag,**\      Often as a tech lead, such as at **Able.ag**, where I relieved the company's
 **Antidote.me,**\  technical founder of architectural, design, and mentoring responsibilities.
@@ -109,16 +109,16 @@ without skirting details.
                    allowing the team to start delivering new business-critical features to
                    production on a predictable schedule.
 
-**Resolver**\      Hardcore eXtreme Programming startup, doing pairing and TDD, producing web and
-**Systems**\       desktop software in Python and .Net IronPython, for
-*5 years.*         financial & scientific clients. At one point I helped re-
-                   implement all of Excel's statistical functions, with improved numerical accuracy.
+**Resolver**\      Hardcore eXtreme Programming startup, doing pairing and TDD, producing
+**Systems**\       Python and .Net applications for financial and scientific clients.
+*5 years.*         At one point I helped re-implement all of Excel's statistical functions, with
+                   modern twists such as improved numerical accuracy.
 
 **GIS**\           I single-handedly designed and
 **consulting**\    coded *Habitat Capture*, a desktop GIS tool in .Net using
 *3 years.*         ArcObjects. End users described it as "*about a billion times better*" than their
-                   last commissioned tool. The resulting dataset won that year's British
-                   Cartographic Society award.
+                   last commissioned tool. The dataset they produced with my tool ended up winning
+                   that year's British Cartographic Society award.
 
                    For **Ordinance Survey** and **ESRI UK** I designed spatial SQL queries to run
                    against the UK's definitive multi-terabyte geographic dataset, as a
