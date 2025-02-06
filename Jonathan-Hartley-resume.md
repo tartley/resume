@@ -4,7 +4,7 @@
 | +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, 55901, USA | Central, ie. UTC-6
 
 [email]: mailto:tartley@tartley.com
-[blog]: https://www.tartley.com/categories/software
+[blog]: https://www.tartley.com/tags/software
 [github]: https://github.com/tartley
 
 ## Summary
@@ -45,7 +45,7 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 
 ------------- ---------------------------------------------------------------------------------
 **Lambda**\   Lambda's public cloud provides access to premier GPUs, which customers
-*1 year,*\    use to train AI models. My team converts customer requests and
+*Sep 2023*\   use to train AI models. My team converts customer requests and
 *to present.* other events into configuration changes on hypervisors across multiple
               datacenters, to create and manage virtual machines, dynamic network configuration,
               access to GPU hardware and storage, presenting the results to users as their own
@@ -53,15 +53,15 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 
               I analyze & deliver new features such as our first on-hypervisor agent, to which I
               migrated our server health checks. Moving features out of our centralized
-              command-and-control service, granting more direct access to the hypervisor, made
-              the code simpler, and the health checks more detailed and insightful.
+              command-and-control service, granting more direct access to the hypervisor, made the
+              code simpler, and the health checks more detailed and insightful.
 
               The team then helped me migrate our primary and most involved
               workflow, launching VMs. This made the code more scalable and
               responsive, and especially more reliable than micro-managing many
               hypervisors from afar by sending low level commands over ssh. This
-              eliminated whole classes of error from our on-call queue, which is
-              important as we grow the fleet.
+              eliminated whole classes of error, improving user experience and
+              reducing on-call events, important as we grow the fleet.
 
               To support the company's builds of High Performance Computing clusters for clients,
               I produced a parameterizable Python model of proposed clusters,
@@ -79,56 +79,53 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 
 ------------------ ---------------------------------------------------------------------------------
 **Canonical**\     The [*Snap Store*](https://snapcraft.io/store) is an app
-*4 years*\         store for Linux applications. I worked as IC on the backend Python web APIs, which
-                   serve 5k req/s, providing downloads to securely update hundreds of millions of
+*May 2019 to*\     store for Linux applications. I worked as IC on the backend Python web APIs, which
+*July 2023*\       serve 5k req/s, providing downloads to securely update hundreds of millions of
                    Linux devices. One effort that I lead consolidated code from the company's other
                    types of binary downloadable artifacts to all be handled by the Snap Store,
                    replacing several separate services with a single "binary artifact store", which
                    allowed us to decommission other teams’ services as their functionality was
                    subsumed, and converge behaviors such as publishing, versioned updates, risk
                    tracks, etc, to be more consistent across artifact types, all while honoring
-                   high-traffic SLAs & preserving compatibility with public APIs used by the diverse
-                   clients of each artifact type.
+                   high-traffic SLAs & preserving compatibility with diverse public APIs for each
+                   artifact type.
 
 **IBM Cloud**\     Implemented IBM Cloud's
-*2 years*           [*security groups*](https://www.tartley.com/posts/illustrating-uses-of-ibm-cloud-security-groups/)
-                   feature, in Python & GoLang, converting user requests into iptables config across
+*July 2017 to*\    [*security groups*](https://www.tartley.com/posts/illustrating-uses-of-ibm-cloud-security-groups/)
+*May 2019*         feature, in Python & GoLang, converting user requests into iptables config across
                    many instances, to provide dynamic on-instance firewalling. I also produced &
-                   presented training courses across the division, teaching hundreds of developers
+                   presented my own training course across the division, teaching hundreds of developers
                    how to contribute *good* tests to the massive IBM Cloud Python test suite,
                    dramatically reducing time spent on creating and maintaining tests, while making
                    the tests themselves orders of magnitude faster, and being more thorough and
                    more reliable.
 
-**Able.ag,**\      Often as a tech lead, such as at **Able.ag**, where I relieved the company's
+**Able.ag,**\      Often as a tech lead, such as at *Able.ag*, where I relieved the company's
 **Antidote.me,**\  technical founder of architectural, design, and mentoring responsibilities.
-**BATS Trading,**\ Usually these roles created web APIs in Python, ingesting, transforming and
-**Rangespan**\     indexing large amounts of data. At e-commerce startup **Rangespan**, we
-*Contracts,*\      integrated with hundreds of suppliers to ingest data for 100 million product
-*6 years.*         lines, and then routed over a billion sales from participating retailers to
-                   dynamically selected suppliers.
-
-**Made.com**\      This furniture retailer's backend Enterprise Resource Planning team was
-*14 month*\        dysfunctional, moribund from years of technical debt. I mentored the team, hired
-*contract.*        new members, replaced the existing week-long manual deployment process with
-                   modern CI/CD. Together we radically fixed and improved the legacy systems,
-                   allowing the team to start delivering new business-critical features to
-                   production on a predictable schedule.
+**Made.com,**\     Usually these roles created web APIs in Python, ingesting, transforming and
+**BATS Trading,**\ indexing large amounts of data. At e-commerce startup *Rangespan*, we
+**Rangespan**\     integrated with hundreds of suppliers to ingest data for 100 million product
+*Contracts,*\      lines, and then routed over a billion sales from participating retailers to
+*June 2017 to*\    dynamically selected suppliers.
+*June 2011*        At furniture retailer *made.com*, the backend Enterprise Resource Planning team
+                   was dysfunctional, moribund from years of technical debt. I was hired to turn it
+                   around. I mentored the team, hired new members, replaced the existing week-long
+                   manual deployment process with modern CI/CD, and radically overhauled the team's
+                   processes and codebase, allowing the team to start delivering new
+                   business-critical features to production on a predictable schedule.
 
 **Resolver**\      Hardcore eXtreme Programming startup, doing pairing and TDD, producing
 **Systems**\       Python and .Net applications for financial and scientific clients.
-*5 years.*         At one point I helped re-implement all of Excel's statistical functions, with
-                   modern twists such as improved numerical accuracy.
+*Sep 2006 to*\     At one point I helped re-implement all of Excel's statistical functions, with
+*May 2011*         modern twists such as improved numerical accuracy.
 
 **GIS**\           I single-handedly designed and
 **consulting**\    coded *Habitat Capture*, a desktop GIS tool in .Net using
-*3 years.*         ArcObjects. End users described it as "*about a billion times better*" than their
-                   last commissioned tool. The dataset they produced with my tool ended up winning
-                   that year's British Cartographic Society award.
-
-                   For **Ordinance Survey** and **ESRI UK** I designed spatial SQL queries to run
-                   against the UK's definitive multi-terabyte geographic dataset, as a
-                   proof-of-concept to derive new sellable data products.
+*Aug 2003 to*\     ArcObjects. End users described it as "*about a billion times better*" than their
+*Sep 2006*         last commissioned tool. The dataset they produced with my tool ended up winning
+                   that year's British Cartographic Society award. For *Ordinance Survey* I
+                   designed spatial SQL queries to run against the UK's definitive multi-terabyte
+                   geographic dataset, as a proof-of-concept to derive new sellable data products.
 
 ------------------ ---------------------------------------------------------------------------------
 
