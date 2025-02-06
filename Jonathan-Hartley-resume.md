@@ -19,21 +19,20 @@ relationships, real talk, and pride in our mutually raised expectations of one a
 
 ## Experience and technologies
 
-I have 15 years experience in **Python** (and have worked in Go, C, C#, C++). I created
+I have 15 years experience in **Python** (and have used Go, C, C#, C++). I created
 [Colorama](https://pypi.python.org/pypi/colorama), a personal **open source** project that has
 become the world's [28th most popular](https://hugovk.github.io/top-pypi-packages/#colorama) Python
-library. I present at international conferences like PyCon, and am a Fellow of the Python Software
-Foundation.
+library. I present at PyCon and am a Fellow of the Python Software Foundation.
 
 I work on **Linux**, often producing **web APIs** which use
 **Django**, **FastAPI**, or **Flask**
 to lean on [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS),
 interfacing with back ends such as **SQL**/relational storage like **PostgreSQL**,
 Oracle, MySQL, or NoSQL stores, indexed using Elasticsearch, deployed to
-bare metal or AWS / GCP.
+bare metal or public clouds.
 
-I consult and mentor in **Test-Driven Development (TDD)**, and my favorite employers use - or would
-like to adopt - this and other other **Agile** and **eXtreme Programming** techniques.
+I consult and mentor in **Test-Driven Development (TDD)**, and my favorite employers use
+this and other other **Agile** and **eXtreme Programming** techniques.
 I was tech reviewer on O'Reilly's [Test Driven Development with
 Python](https://www.oreilly.com/library/view/test-driven-development-with/9781491958698), published
 on testing [in Python
@@ -46,22 +45,21 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 ------------- ---------------------------------------------------------------------------------
 **Lambda**\   Lambda's public cloud provides access to premier GPUs, which customers
 *Sep 2023*\   use to train AI models. My team converts customer requests and
-*to present.* other events into configuration changes on hypervisors across multiple
+*to present.* other events into configuration changes on bare metal hypervisors across multiple
               datacenters, to create and manage virtual machines, dynamic network configuration,
-              access to GPU hardware and storage, presenting the results to users as their own
+              access to GPUs and storage, presenting the results to users as their own
               private cluster.
 
               I analyze & deliver new features such as our first on-hypervisor agent, to which I
               migrated our server health checks. Moving features out of our centralized
               command-and-control service, granting more direct access to the hypervisor, made the
-              code simpler, and the health checks more detailed and insightful.
+              health check code simpler, with more detailed and insightful checks.
 
-              The team then helped me migrate our primary and most involved
-              workflow, launching VMs. This made the code more scalable and
-              responsive, and especially more reliable than micro-managing many
-              hypervisors from afar by sending low level commands over ssh. This
-              eliminated whole classes of error, improving user experience and
-              reducing on-call events, important as we grow the fleet.
+              I then worked with others to migrate our primary and most involved workflow, launching
+              VMs. This made the code more scalable and responsive, and especially more reliable
+              than micro-managing many hypervisors from afar by sending low level commands over ssh.
+              This eliminated whole classes of errors, improving user experience
+              and reducing on-call events, important as we grow the fleet.
 
               To support the company's builds of High Performance Computing clusters for clients,
               I produced a parameterizable Python model of proposed clusters,
@@ -79,16 +77,15 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 
 ------------------ ---------------------------------------------------------------------------------
 **Canonical**\     The [*Snap Store*](https://snapcraft.io/store) is an app
-*May 2019 to*\     store for Linux applications. I worked as IC on the backend Python web APIs, which
+*May 2019 to*\     store for Linux applications. I worked on the backend Python web APIs, containerized in LXC, which
 *July 2023*\       serve 5k req/s, providing downloads to securely update hundreds of millions of
                    Linux devices. One effort that I lead consolidated code from the company's other
                    types of binary downloadable artifacts to all be handled by the Snap Store,
-                   replacing several separate services with a single "binary artifact store", which
-                   allowed us to decommission other teams’ services as their functionality was
-                   subsumed, and converge behaviors such as publishing, versioned updates, risk
-                   tracks, etc, to be more consistent across artifact types, all while honoring
-                   high-traffic SLAs & preserving compatibility with diverse public APIs for each
-                   artifact type.
+                   replacing several separate services with a single "binary artifact store",
+                   decommissioning other teams’ services as their functionality was
+                   subsumed, and converging behaviors such as publishing and risk tracks to be more
+                   consistent across artifact types, all while honoring high-traffic SLAs &
+                   preserving compatibility with diverse public APIs for each artifact type.
 
 **IBM Cloud**\     Implemented IBM Cloud's
 *July 2017 to*\    [*security groups*](https://www.tartley.com/posts/illustrating-uses-of-ibm-cloud-security-groups/)
@@ -104,15 +101,15 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 **Antidote.me,**\  technical founder of architectural, design, and mentoring responsibilities.
 **Made.com,**\     Usually these roles created web APIs in Python, ingesting, transforming and
 **BATS Trading,**\ indexing large amounts of data. At e-commerce startup *Rangespan*, we
-**Rangespan**\     integrated with hundreds of suppliers to ingest data for 100 million product
-*Contracts,*\      lines, and then routed over a billion sales from participating retailers to
-*June 2017 to*\    dynamically selected suppliers.
-*June 2011*        At furniture retailer *made.com*, the backend Enterprise Resource Planning team
-                   was dysfunctional, moribund from years of technical debt. I was hired to turn it
-                   around. I mentored the team, hired new members, replaced the existing week-long
-                   manual deployment process with modern CI/CD, and radically overhauled the team's
-                   processes and codebase, allowing the team to start delivering new
-                   business-critical features to production on a predictable schedule.
+**Rangespan**\     integrated with hundreds of suppliers, using AWS to ingest data for 100 million
+*Contracts,*\      product lines, and then routed over a billion sales from participating retailers
+*June 2017 to*\    to dynamically selected suppliers.
+*June 2011*        At furniture retailer *made.com*, I was hired to fix the dysfunctional Enterprise
+                   Resource Planning team, which was moribund from years of technical debt. I
+                   mentored individual team members, hired some new ones, and replaced the
+                   week-long manual deploy process with modern CI/CD. Together we then radically
+                   overhauled the team's processes and codebase, allowing the team to start
+                   delivering business-critical features to production.
 
 **Resolver**\      Hardcore eXtreme Programming startup, doing pairing and TDD, producing
 **Systems**\       Python and .Net applications for financial and scientific clients.
