@@ -9,31 +9,32 @@
 
 ## Summary
 
-I'm an experienced software developer, a back-end generalist, specializing in Python.
+I'm an experienced software developer, a back-end generalist, specializing in Python, who
+really cares about programming. For you, this means that I create products that work, are well
+tested, and are less expensive to maintain and extend in the future. Deliveries are incremental and
+frequent, to make progress legible to all.
 
-I really care about programming. For you, this means that I create products that work and are
-well tested. Deliveries are incremental and frequent, to make progress visible, and less money is
-required to maintain and extend them in the future.
-
-Good teams are a pre-requisite for this, which means continuous mentoring, jovial relationships,
-real talk, and pride in our mutually raised expectations.
+Good teams are a pre-requisite for this, which means continuous mentoring, pairing, jovial
+relationships, real talk, and pride in our mutually raised expectations of one another.
 
 ## Experience and technologies
 
-I have 15 years experience in **Python** (and other languages as required). I created
+I have 15 years experience in **Python** (and have worked in Go, C, C#, C++). I created
 [Colorama](https://pypi.python.org/pypi/colorama), a personal **open source** project that has
 become the world's [28th most popular](https://hugovk.github.io/top-pypi-packages/#colorama) Python
 library. I present at international conferences like PyCon, and am a Fellow of the Python Software
 Foundation.
 
-I work on **Linux**, often producing **web APIs**, leaning on
-[HATEOAS](https://en.wikipedia.org/wiki/HATEOAS), using **Django**, **FastAPI**, or **Flask**, often
-interfacing with relational storage such as **PostgreSQL**, Oracle or MySQL, or noSQL such as
-Rethink or MongoDB, indexed using Elasticsearch.
+I work on **Linux**, often producing **web APIs** which use
+**Django**, **FastAPI**, or **Flask**
+to lean on [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS),
+interfacing with back ends such as **SQL**/relational storage like **PostgreSQL**,
+Oracle, MySQL, or NoSQL stores, indexed using Elasticsearch, deployed to
+bare metal or AWS / GCP.
 
-I consult and mentor in **Test-Driven Development (TDD)**, and regard projects which use this, and
-other **Agile** and **eXtreme Programming** techniques, as my favorites of the places I've
-worked. I was tech reviewer on O'Reilly's [Test Driven Development with
+I consult and mentor in **Test-Driven Development (TDD)**, and my favorite employers use - or would
+like to adopt - this and other other **Agile** and **eXtreme Programming** techniques.
+I was tech reviewer on O'Reilly's [Test Driven Development with
 Python](https://www.oreilly.com/library/view/test-driven-development-with/9781491958698), published
 on testing [in Python
 Magazine](https://www.tartley.com/posts/acceptance-testing-net-applications-using-ironpython), and
@@ -48,22 +49,27 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 *to present.* other events into configuration changes on hypervisors across multiple
               datacenters, to create and manage virtual machines, dynamic network configuration,
               access to GPU hardware and storage, presenting the results to users as their own
-              private cluster. I analyze & deliver new features such as our first on-hypervisor
-              agent, to which I migrated our server health checks. Moving features like this out of
-              our centralized command-and-control service allows the code to be simpler, more
-              scalable and more responsive. Having direct access to the hypervisor like this is much
-              more reliable than micro-managing many hypervisors from afar by sending low-level
-              commands over ssh, eliminating whole classes of on-call issues. The team then helped
-              me migrate our primary and most involved workflow, launching VMs.
+              private cluster.
 
-              To support the company's side-hustle of building High Performance Computing clusters
-              for clients, I produced a parameterizable Python model of proposed clusters,
-              including server hardware, switches, and the routing of the thousands of
+              I analyze & deliver new features such as our first on-hypervisor agent, to which I
+              migrated our server health checks. Moving features out of our centralized
+              command-and-control service, granting more direct access to the hypervisor, made
+              the code simpler, and the health checks more detailed and insightful.
+
+              The team then helped me migrate our primary and most involved
+              workflow, launching VMs. This made the code more scalable and
+              responsive, and especially more reliable than micro-managing many
+              hypervisors from afar by sending low level commands over ssh. This
+              eliminated whole classes of error from our on-call queue, which is
+              important as we grow the fleet.
+
+              To support the company's builds of High Performance Computing clusters for clients,
+              I produced a parameterizable Python model of proposed clusters,
+              including servers, switches, and the routing of tens-of-thousands of
               networking connections between them, exporting the resulting model as detailed
-              diagrams, bills of material, etc. This allowed Pre-Sales Engineering to present
-              prospective clients with these details, along with quotes, on-demand, rather than
-              after weeks, as is industry standard. This contributed to our smaller start-up
-              winning multiple hundred-million dollar contracts over dominant competitors.
+              diagrams, bills of material, etc. This allowed Pre-Sales Engineering to use these
+              documents during sales pitches, and produce quotes on-demand, rather than after weeks
+              of design work, as has been industry standard.
 
 ------------- ---------------------------------------------------------------------------------
 
@@ -77,7 +83,7 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
                    serve 5k req/s, providing downloads to securely update hundreds of millions of
                    Linux devices. One effort that I lead consolidated code from the company's other
                    types of binary downloadable artifacts to all be handled by the Snap Store,
-                   turning many separate services into a single "binary artifact store", which
+                   replacing several separate services with a single "binary artifact store", which
                    allowed us to decommission other teams’ services as their functionality was
                    subsumed, and converge behaviors such as publishing, versioned updates, risk
                    tracks, etc, to be more consistent across artifact types, all while honoring

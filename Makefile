@@ -4,7 +4,8 @@ help: ## Show this help.
 
 setup: ## Install required apt packages
 	mkdir -p .build
-	reqs=$$(cat requirements.apt) && sudo apt install -y --no-install-recommends $$reqs
+	printf "\n  \033[1;31mPress enter multiple times if this hangs...\033[0m\n\n"
+	sudo apt install -y --no-install-recommends $$(cat requirements.apt)
 .PHONY: setup
 
 %.html: %.md style.css # Generate given .html from corresponding .md file.
@@ -18,7 +19,7 @@ setup: ## Install required apt packages
 	mv $@ ..; \
 	)
 
-html: Jonathan-Hartley-resume.html ## Resume as HTML
+html: Jonathan-Hartley-resume*.html ## Resume as HTML
 
 pdf: Jonathan-Hartley-resume.pdf ## Resume as PDF
 
