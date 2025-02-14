@@ -13,6 +13,7 @@ setup: ## Install required apt packages
 %.pdf: %.md style.tex # Generate given .pdf from corresponding .md file.
 	mkdir -p .build
 	pandoc --from markdown --to context --template style.tex --standalone $< -o .build/$*.tex
+	# cd because mtx generates a few junk log files
 	(\
 	cd .build; \
 	mtxrun --script context $*.tex >/dev/null; \
@@ -20,12 +21,16 @@ setup: ## Install required apt packages
 	)
 
 html: Jonathan-Hartley-resume*.html ## Resume as HTML
+.PHONY: html
 
 pdf: Jonathan-Hartley-resume.pdf ## Resume as PDF
+.PHONY: pdf
 
 all: html pdf
+.PHONY: all
 
 deploy: all ## Copy .pdf and .html outputs to ~/tartley.com/files
 	cp Jonathan*.pdf ~/tartley.com/files/
 	cp Jonathan*.html ~/tartley.com/files/
+.PHONY: deploy
 

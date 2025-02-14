@@ -25,11 +25,10 @@ become the world's [28th most popular](https://hugovk.github.io/top-pypi-package
 library. I present at PyCon and am a Fellow of the Python Software Foundation.
 
 I work on **Linux**, often producing **web APIs** which use
-**Django**, **FastAPI**, or **Flask**
-to lean on [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS),
+**Django**, **FastAPI**, or **Flask**, checked by typing and Pydantic,
 interfacing with back ends such as **SQL**/relational storage like **PostgreSQL**,
-Oracle, MySQL, or NoSQL stores, indexed using Elasticsearch, deployed to
-bare metal or public clouds.
+Oracle, MySQL, or NoSQL stores like Redis, indexed using Elasticsearch, containerized
+using LXC or Docker, deployed to bare metal or public clouds.
 
 I consult and mentor in **Test-Driven Development (TDD)**, and my favorite employers use
 this and other other **Agile** and **eXtreme Programming** techniques.
@@ -43,31 +42,30 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 ## Current Role
 
 ------------- ---------------------------------------------------------------------------------
-**Lambda**\   Lambda's public cloud provides access to premier GPUs, which customers
-*Sep 2023*\   use to train AI models. My team converts customer requests and
-*to present.* other events into configuration changes on bare metal hypervisors across multiple
-              datacenters, to create and manage virtual machines, dynamic network configuration,
-              access to GPUs and storage, presenting the results to users as their own
-              private cluster.
+**Lambda**\   Lambda's public cloud provides premier GPUs, on which customers
+*Sep 2023*\   train AI models. My team converts customer requests and
+*to present.* other events into configuration changes on hypervisors to manage virtual
+              machines, network configuration, GPUs and storage, presenting the
+              result to users as their own private cluster.
 
-              I analyze & deliver new features such as our first on-hypervisor agent, to which I
-              migrated our server health checks. Moving features out of our centralized
-              command-and-control service, granting more direct access to the hypervisor, made the
-              health check code simpler, with more detailed and insightful checks.
+              I analyze & deliver new features. One is our first on-hypervisor agent, deployed
+              on bare metal to thousands of hypervisors in multiple datacenters. To this I migrated
+              our server health checks, from our centralized Python FastAPI command-and-control
+              service, allowing the checks to become substantially simpler, having more direct
+              access to the hypervisor's state.
 
               I then worked with others to migrate our primary and most involved workflow, launching
               VMs. This made the code more scalable and responsive, and especially more reliable
-              than micro-managing many hypervisors from afar by sending low level commands over ssh.
-              This eliminated whole classes of errors, improving user experience
-              and reducing on-call events, important as we grow the fleet.
+              than micro-managing many hypervisors from afar with low-level commands over ssh.
+              This eliminated whole classes of errors & races, improving user experience
+              and reducing on-call burden, important as we grow the fleet.
 
-              To support the company's builds of High Performance Computing clusters for clients,
-              I produced a parameterizable Python model of proposed clusters,
-              including servers, switches, and the routing of tens-of-thousands of
-              networking connections between them, exporting the resulting model as detailed
-              diagrams, bills of material, etc. This allowed Pre-Sales Engineering to use these
-              documents during sales pitches, and produce quotes on-demand, rather than after weeks
-              of design work, as has been industry standard.
+              To support the company's builds of High Performance Computing clusters for clients, I
+              produced a parameterizable Python model of proposed clusters, including servers,
+              switches, and the routing of networking connections between them. Exporting the
+              resulting model as detailed diagrams, bills of material, etc, allowed Pre-Sales
+              Engineering to use these documents during sales pitches, and produce quotes on-demand,
+              rather than after weeks of design work, as has been industry standard.
 
 ------------- ---------------------------------------------------------------------------------
 
@@ -77,8 +75,8 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 
 ------------------ ---------------------------------------------------------------------------------
 **Canonical**\     The [*Snap Store*](https://snapcraft.io/store) is an app
-*May 2019 to*\     store for Linux applications. I worked on the backend Python web APIs, containerized in LXC, which
-*July 2023*\       serve 5k req/s, providing downloads to securely update hundreds of millions of
+*May 2019 to*\     store for Linux applications. I worked on the backend Python Django web APIs,
+*July 2023*\       serving 5k req/s to provide downloads to securely update hundreds of millions of
                    Linux devices. One effort that I lead consolidated code from the company's other
                    types of binary downloadable artifacts to all be handled by the Snap Store,
                    replacing several separate services with a single "binary artifact store",
@@ -89,20 +87,21 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 
 **IBM Cloud**\     Implemented IBM Cloud's
 *July 2017 to*\    [*security groups*](https://www.tartley.com/posts/illustrating-uses-of-ibm-cloud-security-groups/)
-*May 2019*         feature, in Python & GoLang, converting user requests into iptables config across
-                   many instances, to provide dynamic on-instance firewalling. I also produced &
+*May 2019*         feature, in Python & Go, taking the best of AWS and GCP designs, to
+                   convert user requests into iptables config across
+                   many instances, for dynamic on-instance firewalling. I also produced &
                    presented my own training course across the division, teaching hundreds of developers
                    how to contribute *good* tests to the massive IBM Cloud Python test suite,
                    dramatically reducing time spent on creating and maintaining tests, while making
-                   the tests themselves orders of magnitude faster, and being more thorough and
+                   the tests themselves orders of magnitude faster, more thorough, and
                    more reliable.
 
 **Able.ag,**\      Often as a tech lead, such as at *Able.ag*, where I relieved the company's
 **Antidote.me,**\  technical founder of architectural, design, and mentoring responsibilities.
 **Made.com,**\     Usually these roles created web APIs in Python, ingesting, transforming and
-**BATS Trading,**\ indexing large amounts of data. At e-commerce startup *Rangespan*, we
-**Rangespan**\     integrated with hundreds of suppliers, using AWS to ingest data for 100 million
-*Contracts,*\      product lines, and then routed over a billion sales from participating retailers
+**BATS Trading,**\ indexing large amounts of data, often to AWS RDS. At e-commerce startup
+**Rangespan**\     *Rangespan*, we integrated with hundreds of suppliers, to ingest data for 100
+*Contracts,*\      million product lines, and then routed over a billion sales from participating retailers
 *June 2017 to*\    to dynamically selected suppliers.
 *June 2011*        At furniture retailer *made.com*, I was hired to fix the dysfunctional Enterprise
                    Resource Planning team, which was moribund from years of technical debt. I
