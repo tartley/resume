@@ -1,7 +1,11 @@
-% Jonathan Hartley résumé
+---
+title: Jonathan Hartley résumé
+geometry: margin=1cm
+output: pdf_document
+---
 
-| Jonathan Hartley | [tartley@tartley.com][email] | [blog][blog] | [github][github]
-| +1 507 513 1101 | 1601 5th Ave NW. Rochester, MN, 55901, USA | Central, ie. UTC-6
+| Jonathan Hartley | [tartley@tartley.com][email] | [blog][blog] | [github][github] | +1 507 513 1101
+| 1601 5th Ave NW. Rochester, MN, 55901, USA | Central, ie. UTC-6
 
 [email]: mailto:tartley@tartley.com
 [blog]: https://www.tartley.com/tags/software
@@ -69,7 +73,7 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
 
 ------------- ---------------------------------------------------------------------------------
 
-\page[yes]
+\newpage
 
 ## Previous Roles
 
@@ -80,7 +84,7 @@ unittest](https://github.com/python/cpython/commit/1341bb0019868345bab8adff94263
                    Linux devices. One effort that I lead consolidated code from the company's other
                    types of binary downloadable artifacts to all be handled by the Snap Store,
                    replacing several separate services with a single "binary artifact store",
-                   decommissioning other teams’ services as their functionality was
+                   decommissioning other teams' services as their functionality was
                    subsumed, and converging behaviors such as publishing and risk tracks to be more
                    consistent across artifact types, all while honoring high-traffic SLAs &
                    preserving compatibility with diverse public APIs for each artifact type.

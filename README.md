@@ -9,6 +9,13 @@ make setup # Installs required apt packages
 make all # Converts all resume .md files to .html & .pdf
 ```
 
+## TODO
+
+* get alt pdf generation working without requiring old mtxrun version
+* Update the tex packages to unblock the pop store updater.
+* Remove apt package 'context' - does pdf generation still work?
+* remove style.tex? Or throw it in 'old'? How did we generate it?
+
 ## Purpose
 
 See http://rockportinstitute.com/resumes/
